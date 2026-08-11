@@ -13,7 +13,7 @@ export default function Navigation() {
     return (
         <NavigationContainer>
             <Tab.Navigator>
-                <Tab.Screen name="home" component={HomeStack} options={{ title: "Inicio" }} />
+                <Tab.Screen name="home" component={InicioStack} options={{ title: "Inicio" }} />
                 <Tab.Screen name="historia" component={HistoriaStack} options={{ title: "Historia" }} />
                 <Tab.Screen name="account" component={AccountStack} options={{ title: "Cuenta" }} />
             </Tab.Navigator>

@@ -1,5 +1,5 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Historia from '../screens/Historia/Historia'
+import Historia from '../screens/historia/Historia'
 
 const Stack = createNativeStackNavigator();
 
