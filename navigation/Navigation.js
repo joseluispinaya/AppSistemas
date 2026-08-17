@@ -53,6 +53,7 @@ export default function Navigation() {
                 <Tab.Screen name="historia" component={HistoriaStack} options={{ title: "Historia" }} />
                 <Tab.Screen name="account" component={AccountStack} options={{ title: "Cuenta" }} />
             </Tab.Navigator>
+            <Toast />
         </NavigationContainer>
     );
 }

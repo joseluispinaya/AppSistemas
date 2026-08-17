@@ -1,11 +1,10 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import Toast from 'react-native-toast-message';
 
-export default function Home() {
+export default function Prueba() {
   return (
     <View>
-      <Text>Home</Text>
+      <Text>Prueba</Text>
     </View>
   )
 }
